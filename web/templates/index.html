@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<style>
+    .label_center0{
+    position:absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    text-align:center;
+    top: calc(300px + 50vh);
+}
+</style>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/5ce9a0dd1d.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TensorSkin</title>
+        <link rel="icon" type="image/png" sizes="72x72" href="static/logo.png">
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+
+    <body style="overflow-y: scroll">
+        <nav>
+            <div class="logo">
+                <h4 style="text-align: center;">DOG CLASSIFIER</h4>
+            </div>
+            <ul class="nav-links">
+            </ul>
+        </nav>
+
+        <div class='rectangle'>Please choose your image or take a new one</div>
+        
+        <div class="row-1">
+            <div class="pic-pre">
+                <img id="rectangle-pic-preview" style="max-width: 300px; max-height: 300px;
+                    left: 0;
+                    right: 0;
+                    top: 32.5vh;
+                    position: absolute;
+                    margin: auto; "src="{{imagesource}}"></img></br>
+            </div>
+            <div class="button-set-1">
+               <form action="" method=post enctype=multipart/form-data>
+                <input type="file" name="file" class="choose-file" onchange="document.getElementById('rectangle-pic-preview').src = window.URL.createObjectURL(this.files[0])" />
+                <button type="submit" value=Upload class="upload">Upload</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="rectangle pred" style="position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: calc(300px + 40vh);
+            border: 3px solid rgb(224, 113, 7);
+            border-radius: 10px;">Prediction</div>
+        </div>
+
+        <div class="label_center0">
+            {{label}}
+        </div>
+        
+</html>
