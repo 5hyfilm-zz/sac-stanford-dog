@@ -12,10 +12,10 @@ import uuid
 import base64
 
 IMG_WIDTH, IMG_HEIGHT = 224, 224
-model_path = 'web/model/standford_sac_dog_model.h5'
+model_path = 'model/standford_sac_dog_model.h5'
 model = load_model(model_path)
 
-UPLOAD_FOLDER = 'web/upload_folder'
+UPLOAD_FOLDER = 'upload_folder'
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'JPG', 'JPEG', 'png'])
 
 app = Flask(__name__)
