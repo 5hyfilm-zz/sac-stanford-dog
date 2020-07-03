@@ -7,6 +7,6 @@
 - Flask
 
 **How to run web application**
-- Go to web folder in this reporitory and type ```python3 app.py``` in terminal
+- Go to web folder in this reporitory and type ```python3 app.py``` in terminal.
 
 ![alt text](https://github.com/filmerxyz/Standford_Sac_Dog/blob/master/preview_img.png)
