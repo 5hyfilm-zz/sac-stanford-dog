@@ -1,4 +1,4 @@
-# Standford Sac Dog
+# Sac Stanford Dog
 
 [Original dataset](https://www.kaggle.com/jessicali9530/stanford-dogs-dataset) is [Stanford Dogs Dataset](https://www.kaggle.com/jessicali9530/stanford-dogs-dataset) but we choose only [top 10 most popular in Thailand](https://www.sanook.com/women/18510/), so this is a [new dataset](https://github.com/EvilPickle-PCSHSPT/Standford_Sac_Dog_dataset) that we use in this project.
 
